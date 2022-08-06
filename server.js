@@ -3,7 +3,6 @@ const express = require("express");
 const socket = require("socket.io");
 const app = express();
 app.use(express.static("public"));
-IP_ADDRESS = "192.168.0.133";
 PORT = 3000;
 // const server = app.listen(PORT, IP_ADDRESS);
 const server = app.listen(3000, "localhost");
